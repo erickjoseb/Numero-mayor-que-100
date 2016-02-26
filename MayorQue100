@@ -1,0 +1,18 @@
+# Numero-mayor-que-100
+#include <iostream>
+using namespace std;
+
+int main() {
+	double numero;
+
+		cout <<"Ingrese un numero";
+		cin >> numero;
+		if (numero>100){
+		cout<<"\n El numero es mayor que 100";
+		return(numero);
+		}
+		else{
+			cout<< "El numero es menor que 100";
+
+		}
+}
